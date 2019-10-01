@@ -1,0 +1,17 @@
+﻿main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "void __cdecl update(void)" (?update@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl processKeyboardInput(struct GLFWwindow *)" (?processKeyboardInput@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "void __cdecl update(void)" (?update@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl processKeyboardInput(struct GLFWwindow *)" (?processKeyboardInput@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "void __cdecl render(void)" (?render@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "bool __cdecl initGlad(void)" (?initGlad@@YA_NXZ)
+C:\Users\AlchenTheCat\Downloads\basicDemo(Windows-VS2017)\basicDemo(Windows-VS2017)\basicDemo\lib\AntTweakBar.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\AlchenTheCat\Downloads\basicDemo(Windows-VS2017)\basicDemo(Windows-VS2017)\basicDemo\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\AlchenTheCat\Downloads\basicDemo(Windows-VS2017)\basicDemo(Windows-VS2017)\basicDemo\lib\glfw3dll.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\AlchenTheCat\Downloads\basicDemo(Windows-VS2017)\basicDemo(Windows-VS2017)\basicDemo\lib\OpenGL32.Lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\AlchenTheCat\Downloads\basicDemo(Windows-VS2017)\basicDemo(Windows-VS2017)\x64\Debug\basicDemo.exe : fatal error LNK1120: 12 unresolved externals

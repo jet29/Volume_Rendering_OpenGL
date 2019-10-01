@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\alchenthecat\documents\semestre viii\funciones y tecnicas de computacion grafica\tarea 3\basicdemo(windows-vs2017)\basicdemo\main.cpp(56): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alchenthecat\documents\semestre viii\funciones y tecnicas de computacion grafica\tarea 3\basicdemo(windows-vs2017)\basicdemo\main.cpp(445): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  basicDemo.vcxproj -> C:\Users\AlchenTheCat\Documents\Semestre VIII\Funciones y Tecnicas de Computacion Grafica\Tarea 3\basicDemo(Windows-VS2017)\Debug\basicDemo.exe
